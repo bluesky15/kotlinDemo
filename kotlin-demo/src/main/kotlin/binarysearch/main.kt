@@ -9,10 +9,10 @@ internal class BinarySearch {
             // If the element is present at the middle itself
             if (arr[mid] == x) return mid
             // If element is smaller than mid, then
-            // it can only be present in left subarray
+            // it can only be present in left sub-array
             return if (arr[mid] > x) binarySearch(arr, l, mid - 1, x) else binarySearch(arr, mid + 1, r, x)
             // Else the element can only be present
-            // in right subarray
+            // in right sub-array
         }
         // We reach here when element is not present in array
         return -1
@@ -29,4 +29,9 @@ internal class BinarySearch {
             if (result == -1) println("Element not present") else println("Element found at index $result")
         }
     }
+}
+
+
+fun binarySearch(){
+
 }
