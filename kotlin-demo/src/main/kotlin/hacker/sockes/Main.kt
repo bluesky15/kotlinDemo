@@ -1,4 +1,4 @@
-package socks_problem
+package hacker.sockes
 
 import java.util.*
 import kotlin.collections.MutableMap
