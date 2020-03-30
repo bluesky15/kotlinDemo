@@ -5,7 +5,14 @@ import kotlin.collections.ArrayList
 
 
 fun removeDuplicates(n: Int, ar: ArrayList<Int>) {
-    val it = ar.iterator()
+    val map = mutableMapOf<Int, Int>()
+    for (i in n - 1 downTo 0) {
+        if (!map.containsKey(ar[i])) {
+            map[ar[i]] = i
+        }
+    }
+    println(map.size)
+    map.entries.sortedBy { it.value }.forEach { print("${it.key} ") }
 
 }
 
