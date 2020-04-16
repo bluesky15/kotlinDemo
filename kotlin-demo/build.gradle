@@ -20,6 +20,12 @@ dependencies {
     testCompile("org.junit.jupiter:junit-jupiter-api:5.4.0-RC1")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.4.0-RC1")
 
+    // Use the Kotlin test library.
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    // Use the Kotlin JUnit integration.
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+    // Selenium for Java
+    testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
 }
 
 compileKotlin {
