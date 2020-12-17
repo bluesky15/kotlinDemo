@@ -22,16 +22,11 @@ internal class BinarySearch {
         @JvmStatic
         fun main(args: Array<String>) {
             val ob = BinarySearch()
-            val arr = intArrayOf(2, 3, 4, 10, 40)
+            val arr = intArrayOf(2, 3, 4, 10, 40,90)
             val n = arr.size
-            val x = 10
+            val x = 90
             val result = ob.binarySearch(arr, 0, n - 1, x)
             if (result == -1) println("Element not present") else println("Element found at index $result")
         }
     }
-}
-
-
-fun binarySearch(){
-
 }
