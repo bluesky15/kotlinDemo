@@ -17,6 +17,7 @@ test {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
     testCompile("org.junit.jupiter:junit-jupiter-api:5.4.0-RC1")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.4.0-RC1")
 

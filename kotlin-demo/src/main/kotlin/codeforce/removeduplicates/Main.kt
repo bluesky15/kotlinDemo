@@ -6,7 +6,7 @@ import kotlin.collections.ArrayList
 
 fun removeDuplicates(n: Int, ar: ArrayList<Int>) {
     val it = ar.iterator()
-
+    print(ar)
 }
 
 fun main() {
