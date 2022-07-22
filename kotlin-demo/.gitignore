@@ -60,3 +60,4 @@ local.properties
 lib/
 out/*
 ./out/
+../.idea/misc.xml

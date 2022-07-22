@@ -1,5 +1,5 @@
 package hello
 
-fun main(){
-    print("Hello world!")
+fun helloWorld(): String {
+    return "Hello World!"
 }

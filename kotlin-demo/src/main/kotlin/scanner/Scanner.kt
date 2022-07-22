@@ -9,7 +9,7 @@ import kotlin.math.*
 //    print("You have entered = $stringInput")
 //}
 // hiking selfies problem - walmart hacker rank
-fun main(args: Array<String>) {
+fun main() {
     val reader = Scanner(System.`in`)
     val n: Double = reader.nextDouble()
     val x: Double = reader.nextDouble()
